@@ -11,6 +11,7 @@ var cont=document.getElementById("array_container");
 cont.style="flex-direction:row";
 
 inp_gen.addEventListener("click",generate_array);
+inp_as.addEventListener("input",update_array_size);
 
 function generate_array()
 {
@@ -26,3 +27,8 @@ function generate_array()
     }
 }
 
+function update_array_size()
+{
+    array_size=inp_as.value;
+    generate_array();
+}
