@@ -62,6 +62,7 @@ nav {
   }
   
   nav .header_right #a_generate:hover {
+    background-color: grey;
     cursor: pointer;
   }
 
@@ -92,7 +93,7 @@ nav {
   }
 
   nav .header_right .algos button:hover {
-    background-color: blue;
+    background-color: orange;
     cursor: pointer;
   }
 
@@ -108,7 +109,7 @@ nav {
   
   nav .header_right .algos .butt_selected {
     background-color: white;
-    color: blue;
+    color: orange;
   }
   
   nav .header_right .algos .butt_selected:hover {
@@ -117,7 +118,7 @@ nav {
   }
   
   nav .header_right .algos .butt_unselected:hover {
-    background-color: blue;
+    background-color: orange;
     cursor: pointer;
   }
 
