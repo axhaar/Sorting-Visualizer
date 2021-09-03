@@ -90,3 +90,8 @@ nav {
     padding: 5% 0%;
     font-size: x-large;
   }
+
+  nav .header_right .algos button:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
