@@ -7,6 +7,9 @@ function Bubble()
             div_update(divs[j],div_sizes[j],"yellow");
             if(div_sizes[j]>div_sizes[j+1])
             {
+                div_update(divs[j],div_sizes[j], "red");
+                div_update(divs[j+1],div_sizes[j+1], "red");
+
                 var temp=div_sizes[j];
                 div_sizes[j]=div_sizes[j+1];
                 div_sizes[j+1]=temp;
