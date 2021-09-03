@@ -11,7 +11,7 @@
         <nav>
             <div class="array-inputs">
                 <p>Size of array: (max. 200)</p>
-                <input id="a_size" min=0 max=200 step=1 value=80>
+                <input id="a_size" min=0 max=200 step=1 value=24>
                 <p class="speeda">Speed of Algorithm: </p>
                 <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
             </div>
@@ -50,9 +50,9 @@
 
     </footer>
 
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>                    <!--Should be loaded first-->
 
-    <script src="./js/visuals.js"></script>
+    <script src="./js/visuals.js"></script>                 <!--Should be loaded after main.js-->
 
     <script src="./js/bubble.js"></script>
     <script src="./js/selection.js"></script>

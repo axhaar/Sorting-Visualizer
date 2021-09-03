@@ -4,26 +4,26 @@ function Selection_sort()
 
     for(var i=0;i<array_size-1;i++)
     {
-        div_update(divs[i],div_sizes[i],"red");
+        div_update(divs[i],div_sizes[i],"red");                                           //Colour
 
         index_min=i;
 
         for(var j=i+1;j<array_size;j++)
         {
-            div_update(divs[j],div_sizes[j],"yellow");
+            div_update(divs[j],div_sizes[j],"yellow");                                    //Colour
 
             if(div_sizes[j]<div_sizes[index_min])
             {
                 if(index_min!=i)
                 {
-                    div_update(divs[index_min],div_sizes[index_min],"blue");
+                    div_update(divs[index_min],div_sizes[index_min],"blue");              //Colour
                 }
                 index_min=j;
-                div_update(divs[index_min],div_sizes[index_min],"red");
+                div_update(divs[index_min],div_sizes[index_min],"red");                   //Colour
             }
             else
             {
-                div_update(divs[j],div_sizes[j],"blue");
+                div_update(divs[j],div_sizes[j],"blue");                                  //Colour
             }
         }
         
@@ -33,13 +33,13 @@ function Selection_sort()
             div_sizes[index_min]=div_sizes[i];
             div_sizes[i]=temp;
 
-            div_update(divs[index_min],div_sizes[index_min],"red");
-            div_update(divs[i],div_sizes[i],"red");
-            div_update(divs[index_min],div_sizes[index_min],"blue");
+            div_update(divs[index_min],div_sizes[index_min],"red");                       //Height
+            div_update(divs[i],div_sizes[i],"red");                                       //Height
+            div_update(divs[index_min],div_sizes[index_min],"blue");                      //Colour
         }
-        div_update(divs[i],div_sizes[i],"green");
+        div_update(divs[i],div_sizes[i],"green");                                         //Colour
     }
-    div_update(divs[i],div_sizes[i],"green");
+    div_update(divs[i],div_sizes[i],"green");                                             //Colour
 
     enable_buttons();
 }

@@ -18,11 +18,11 @@ function vis_speed()
         case 5: speed=10000;
                 break;
     }
-    delay_time=10000/(Math.floor(array_size/10)*speed);
+    delay_time=10000/(Math.floor(array_size/10)*speed);                 //Decreasing numerator to increase speed
 }
 
 var delay_time=10000/(Math.floor(array_size/10)*speed);
-var c_delay=0;
+var c_delay=0;                                                          //Updates everytime to keep the visualization visible
 
 function div_update(cont,height,color)
 {

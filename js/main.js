@@ -13,6 +13,8 @@ cont.style="flex-direction:row";
 inp_gen.addEventListener("click",generate_array);
 inp_as.addEventListener("input",update_array_size);
 
+
+//Array Generation
 function generate_array()
 {
     cont.innerHTML="";
@@ -27,6 +29,8 @@ function generate_array()
     }
 }
 
+
+//Array Updation
 function update_array_size()
 {
     array_size=inp_as.value;
@@ -54,6 +58,7 @@ function disable_buttons()
     }
 }
 
+//Runs correct algorithm
 function runalgo()
 {
     disable_buttons();
