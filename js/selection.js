@@ -10,10 +10,10 @@ function Selection_sort()
                 }
                 index_min=j;
                 div_update(divs[index_min],div_sizes[index_min],"red");
-            else
-            {
+        }   
+        else
+        {
                 div_update(divs[j],div_sizes[j],"blue");
-            }
         }
 
         if(index_min!=i)
@@ -21,6 +21,14 @@ function Selection_sort()
             var temp=div_sizes[index_min];
             div_sizes[index_min]=div_sizes[i];
             div_sizes[i]=temp;
+
+            div_update(divs[index_min],div_sizes[index_min],"red");
+            div_update(divs[i],div_sizes[i],"red");
+            div_update(divs[index_min],div_sizes[index_min],"blue");
         }
+        div_update(divs[i],div_sizes[i],"green");
     }
+    div_update(divs[i],div_sizes[i],"green");
+
+    enable_buttons();
 }
