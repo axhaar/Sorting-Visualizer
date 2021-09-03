@@ -72,4 +72,21 @@ nav {
     padding: 3% 0%;
   }
 
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (40%);
+        grid-template-columns: repeat(6, 40%);
+    place-content: center;
+    padding: 2% 0%;
+    margin-left: 5%;
+  }
   
+  nav .header_right .algos button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding: 5% 0%;
+    font-size: x-large;
+  }
