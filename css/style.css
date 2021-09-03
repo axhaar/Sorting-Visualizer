@@ -29,12 +29,12 @@ nav {
   }
 
   nav .array-inputs #a_size {
-    margin-top: 5%;
-    height: 0.4rem;
+    height: 0.2rem;
     padding: 5% 0%;
   }
   
   nav .array-inputs #a_speed {
+    margin-top: 3%;
     padding: 5% 0%;
   }
-
+  
