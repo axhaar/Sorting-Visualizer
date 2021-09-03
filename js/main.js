@@ -39,3 +39,17 @@ for(var i=0;i<butts_algos.length;i++)
 {
     butts_algos[i].addEventListener("click",runalgo);
 }
+
+function disable_buttons()
+{
+    for(var i=0;i<butts_algos.length;i++)
+    {
+
+    }
+}
+
+function runalgo()
+{
+    disable_buttons();
+    
+}
