@@ -30,3 +30,12 @@ function div_update(cont,height,color)
         cont.style=" margin:0% " + margin_size + "%; width:" + (100/array_size-(2*margin_size)) + "%; height:" + height + "%; background-color:" + color + ";";
     },c_delay+=delay_time);
 }
+
+function enable_buttons()
+{
+    window.setTimeout(function(){
+        for(var i=0;i<butts_algos.length;i++)
+        {
+            
+        }
+}
