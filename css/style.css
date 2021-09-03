@@ -20,3 +20,13 @@ nav {
     place-content: center;
     padding: 5% 0%;
   }
+
+  nav .array-inputs #a_size {
+    margin-top: 5%;
+    height: 0.4rem;
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+  }
