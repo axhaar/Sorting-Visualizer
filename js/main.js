@@ -32,3 +32,7 @@ function update_array_size()
     array_size=inp_as.value;
     generate_array();
 }
+
+window.onload=update_array_size();
+
+
