@@ -46,6 +46,11 @@ function disable_buttons()
     {
         butts_algos[i].classList=[];
         butts_algos[i].classList.add("butt_locked");
+
+        butts_algos[i].disabled=true;
+        inp_as.disabled=true;
+        inp_gen.disabled=true;
+        inp_aspeed.disabled=true;
     }
 }
 
