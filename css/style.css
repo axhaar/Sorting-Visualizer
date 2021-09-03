@@ -95,3 +95,11 @@ nav {
     background-color: blue;
     cursor: pointer;
   }
+
+section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+}
+
