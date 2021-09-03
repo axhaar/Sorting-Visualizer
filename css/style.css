@@ -108,7 +108,7 @@ nav {
   
   nav .header_right .algos .butt_selected {
     background-color: white;
-    color: green;
+    color: blue;
   }
   
   nav .header_right .algos .butt_selected:hover {
