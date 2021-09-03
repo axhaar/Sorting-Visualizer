@@ -64,3 +64,12 @@ nav {
   nav .header_right #a_generate:hover {
     cursor: pointer;
   }
+
+  nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: xxx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3% 0%;
+  }
+
+  
