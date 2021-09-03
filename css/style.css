@@ -11,3 +11,12 @@ nav {
         column-gap: 10%;
     padding: 0% 5%;
   }
+
+  nav .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% 0%;
+  }
