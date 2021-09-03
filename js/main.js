@@ -35,4 +35,7 @@ function update_array_size()
 
 window.onload=update_array_size();
 
-
+for(var i=0;i<butts_algos.length;i++)
+{
+    butts_algos[i].addEventListener("click",runalgo);
+}
