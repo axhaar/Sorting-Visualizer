@@ -10,3 +10,13 @@ var margin_size;
 var cont=document.getElementById("array_container");
 cont.style="flex-direction:row";
 
+inp_gen.addEventListener("click",generate_array);
+
+function generate_array()
+{
+    cont.innerHTML="";
+
+    for(var i=0;i<array_size;i++)
+    {
+        
+    }
